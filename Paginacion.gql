@@ -1,0 +1,9 @@
+{
+  hn {
+    topStories(limit:10, offset:40){
+      id
+      title
+      url
+    }
+  }
+}
