@@ -1,0 +1,14 @@
+{
+  viewer{
+    id
+    name
+    repositories(last:10){
+      edges{
+        node {
+          id
+          name
+        }
+      }
+    }
+  }
+}
